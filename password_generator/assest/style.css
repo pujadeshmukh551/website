@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(0, 255, 255);
+}
+h2{
+    font-family: "poppins",serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+
+}
+input{
+    width: 80%;
+    font-size: 2rem;
+    font-family: fantasy;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    margin-top: 4%;
+    color: gray;
+}
+#btn{
+    width: 35%;
+    font-size: 1rem;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    border:none ;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 25px;
+    transition: 0.5s ease;
+
+}
+#btn:hover{
+    background-color: red;
+    color: white;
+}
